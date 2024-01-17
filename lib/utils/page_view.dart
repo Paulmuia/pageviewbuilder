@@ -6,7 +6,7 @@ class PageViewUtil extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     PageController pageController = PageController(viewportFraction: 0.8);
-    return Container(
+    return SizedBox(
             height: 200,
             child: PageView.builder(
                 scrollDirection: Axis.horizontal,
